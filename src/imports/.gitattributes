@@ -1,0 +1,4 @@
+# Site images are small enough (<3 MB each) to store as regular git files,
+# so hosts that build from this repo get the real images, not LFS pointers.
+*.png -filter -diff -merge binary
+*.jpg -filter -diff -merge binary
