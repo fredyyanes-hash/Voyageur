@@ -2,7 +2,7 @@ import svgPaths from "./svg-dbalrirqsk";
 import imgRectangle from "./f93ee873c3839bf520b078c1bb060136d6be2037.png";
 import imgRectangle68 from "./ab0192cfd873821e66e8f85d493d3a7d1c938a2a.png";
 import imgRectangle69 from "./a3541306405844071dc8045b051d81e2db959fff.png";
-import imgStamp1 from "./fba786e276455e5abcd000eb2ec3c0e414ce0bb9.png";
+import imgStamp1 from "./security-geotrust.png";
 import imgRectangle62 from "./61e3b203418799d70f3edc483f82a29f90a3f49f.png";
 
 function GrapeLogo() {

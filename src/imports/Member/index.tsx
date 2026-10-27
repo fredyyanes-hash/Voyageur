@@ -1,7 +1,7 @@
 import svgPaths from "./svg-ld0r6gz9ea";
 import imgPanorama from "./f93ee873c3839bf520b078c1bb060136d6be2037.png";
-import imgEllipse10 from "./526f6acd5e1141d6fcef6ad94234774f80f058d1.png";
-import img22000342ChseSetFcwWineBtlHCopy1 from "./c5e97b93c46910f69692417e58af935c982aafec.png";
+import imgEllipse10 from "./member-portrait.png";
+import img22000342ChseSetFcwWineBtlHCopy1 from "./member-gift-set.jpg";
 import imgRectangle62 from "./61e3b203418799d70f3edc483f82a29f90a3f49f.png";
 
 function GrapeLogo() {

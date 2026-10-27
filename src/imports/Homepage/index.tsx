@@ -1,9 +1,9 @@
 import svgPaths from "./svg-ns63ae808b";
-import imgRectangle from "./f93ee873c3839bf520b078c1bb060136d6be2037.png";
-import imgWineMockUpCopy1 from "./f42e2b048972b39367759247fa925ea8df8e3e11.png";
-import imgStylishYoungGirlWithFoxyHairstyleInModernStrawHatAndCoolSummerOutfitPosingWithGlassWithChampagneOutdoor from "./731b4c7da8df9941d651ebb4106cfbfbe6e45cf6.png";
-import imgVisitUsImage from "./5b914715e17cec784ed466572841a9e481c749ca.png";
-import imgRectangle62 from "./61e3b203418799d70f3edc483f82a29f90a3f49f.png";
+import imgRectangle from "./hero-vineyard.jpg";
+import imgWineMockUpCopy1 from "./wine-pairing-feature.jpg";
+import imgStylishYoungGirlWithFoxyHairstyleInModernStrawHatAndCoolSummerOutfitPosingWithGlassWithChampagneOutdoor from "./wine-tasting-lifestyle.png";
+import imgVisitUsImage from "./visit-vineyard.png";
+import imgRectangle62 from "./header-texture.png";
 
 function Frame1() {
   return (
