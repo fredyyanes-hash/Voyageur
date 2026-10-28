@@ -1285,8 +1285,8 @@ function ProductPage({
   const reviews = [
     { name: "Yuki — Los Angeles, CA", text: "This wine is PERFECT for a night in with the girls! Light, super refreshing, and the citrus notes are amazing. Definitely buying this one again.", image: imgPersona1 },
     { name: "Robin — Austin, TX", text: "Impressed! Crisp, elegant flavor that paired beautifully with the seafood appetizers I served. My guests loved it — a new staple for hosting!", image: imgPersona2 },
-    { name: "Carlos — Sarasota, FL", text: "A solid find. Great balance of fruit and acidity, with some intriguing complexity that makes it stand out from the crowd. Excellent value.", image: imgPersona3 },
-    { name: "Marie — New York, NY", text: "Beautifully balanced with a lingering finish. This wine transported me to the vineyard with every sip. A truly exceptional experience.", image: imgPersona4 },
+    { name: "Trent — Wappingers Falls, NY", text: "A solid find. Great balance of fruit and acidity, with some intriguing complexity that makes it stand out from the crowd. Excellent value.", image: imgPersona3 },
+    { name: "Carlos — Sarasota, FL", text: "Beautifully balanced with a lingering finish. This wine transported me to the vineyard with every sip. A truly exceptional experience.", image: imgPersona4 },
   ];
 
   const handleAdd = () => {
