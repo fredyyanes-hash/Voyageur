@@ -28,6 +28,7 @@ import imgPersona4 from "@/imports/Product/review-marie.jpg";
 import imgStamp from "@/imports/Cart/security-geotrust.png";
 import imgMemberPerson from "@/imports/Member/member-portrait.png";
 import imgMemberWine from "@/imports/Member/member-gift-set.jpg";
+import imgFamily from "@/imports/About/altavilla-family.jpg";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 type Page = "home" | "shop" | "product" | "cart" | "checkout" | "member" | "confirmation" | "visit" | "about" | "blog";
@@ -453,11 +454,11 @@ function WineTile({
       className="group flex flex-col bg-white border border-gray-100 hover:shadow-xl transition-shadow duration-300 cursor-pointer"
       onClick={() => onViewProduct(wine)}
     >
-      <div className="relative h-[300px] overflow-hidden bg-gray-50">
+      <div className="relative h-[300px] overflow-hidden bg-[#F4F4F4]">
         <img
           src={wine.image}
           alt={wine.name}
-          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
         />
         {wine.badge && (
           <div className="absolute top-4 left-4 bg-black text-white text-[11px] px-2 py-1 tracking-wider" style={{ fontFamily: "'Jost', sans-serif" }}>
@@ -1325,17 +1326,17 @@ function ProductPage({
                 onClick={() => setLightbox(true)}
               />
               <button
-                className="absolute top-6 left-6 w-10 h-10 bg-white/20 hover:bg-white/40 backdrop-blur-sm rounded-full flex items-center justify-center transition-colors"
+                className="absolute top-6 left-6 w-10 h-10 bg-black/45 hover:bg-black/65 backdrop-blur-sm rounded-full flex items-center justify-center transition-colors"
                 onClick={() => navigate("shop")}
               >
                 <ArrowLeft className="w-5 h-5 text-white" />
               </button>
-              <button className="absolute top-6 right-6 w-10 h-10 bg-white/20 hover:bg-white/40 backdrop-blur-sm rounded-full flex items-center justify-center transition-colors">
+              <button className="absolute top-6 right-6 w-10 h-10 bg-black/45 hover:bg-black/65 backdrop-blur-sm rounded-full flex items-center justify-center transition-colors">
                 <Heart className="w-5 h-5 text-white" />
               </button>
               <button
                 onClick={() => setLightbox(true)}
-                className="absolute bottom-6 right-6 w-9 h-9 bg-white/20 hover:bg-white/40 backdrop-blur-sm rounded-full flex items-center justify-center transition-colors opacity-0 group-hover/img:opacity-100"
+                className="absolute bottom-6 right-6 w-9 h-9 bg-black/45 hover:bg-black/65 backdrop-blur-sm rounded-full flex items-center justify-center transition-colors opacity-0 group-hover/img:opacity-100"
               >
                 <ZoomIn className="w-4 h-4 text-white" />
               </button>
@@ -2316,7 +2317,7 @@ function AboutPage({ navigate }: { navigate: (p: Page) => void }) {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <img src={imgVisitUs} alt="The Voyageur estate" className="w-full h-[520px] object-cover shadow-2xl" />
+            <img src={imgFamily} alt="The Altavilla family in the vineyard" className="w-full aspect-[3/2] object-cover shadow-2xl" />
             <div className="absolute -bottom-6 -left-6 bg-[#87340e] text-white px-8 py-6 shadow-xl">
               <p className="text-5xl leading-none" style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 700 }}>
                 1984
